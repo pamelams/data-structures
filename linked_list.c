@@ -80,20 +80,3 @@ void print_linked_list(node *head)
 		current = current->next;
 	}
 }
-
-int main()
-{
-	node *list1 = create_linked_list();
-
-	int i, n;
-
-	for(i = 0; i < 5; i++)
-	{
-		scanf("%d", &n);
-		list1 = add_node(list1, n);
-	}
-
-	print_linked_list(list1);
-
-	return 0;
-}
