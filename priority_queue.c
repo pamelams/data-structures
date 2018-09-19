@@ -68,7 +68,7 @@ int maximum(priority_queue *pq)
 
 int is_empty(priority_queue *pq)
 {
-	return (head == NULL);
+	return (pq->head == NULL);
 }
 
 void print_priority_queue(priority_queue *pq)
